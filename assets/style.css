@@ -1,0 +1,37 @@
+/*    ------------------------------  css géneral ------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+  }
+  
+a{
+    text-decoration: none;
+  }
+
+h1{
+  text-align:center;
+  margin: 50px ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*    ------------------------ fin css géneral --------------- */
+
+
+
+/*    ------------------------------  css formulaire ------------------------------ */
+
+.formulaires{
+  margin: auto ;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #3ae863; 
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px 5px #3ae863; 
+  box-shadow: 5px 5px 15px 5px #3ae863;
+  
+}
+
+/*    --------------------- fin css formulaire -------------- */
+
