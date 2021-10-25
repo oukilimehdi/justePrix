@@ -1,6 +1,5 @@
 <?php
     ob_start();
-    //la page game est accéssible uniquement aux users qui se sont connécté
     if(!isset($_SESSION['nomUser'])) {
        header('Location: ../index.php');
     }

@@ -1,6 +1,6 @@
 <?php
 
-//l'objet pdo est une interface qui permet au scripts PHP d’interroger une base de données via des requêtes SQL. 
+
 class Connexion {
 
     private static  $url = ('mysql:host=localhost;dbname=randomnumber;charset=utf8');
